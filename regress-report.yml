@@ -6,6 +6,7 @@ test-cases:
   - summary: |
       Проверка фильтрации товаров
     status: pass
+    
   - summary: |
       Провека просмотра товаров и подробной информации о них
     status: pass
@@ -13,6 +14,7 @@ test-cases:
   - summary: |
       Проверка добавления товара в корзину
     status: pass
+    
   - summary: |
       Проверка просмотра содержимого корзины
     status: pass
