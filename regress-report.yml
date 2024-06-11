@@ -20,14 +20,14 @@ test-cases:
 bugreports:
   - summary: |
       При смене языка не отображаются картинки со странами
-    environment: |
+  environment: |
       25.0.6422.142 (Официальная сборка), (64 бит)
       Windows OC 19045.4412
-    steps-to-reproduce: |
+  steps-to-reproduce: |
       - Нажать кнопку "Language"
-    expected-result: |
+  expected-result: |
       Выпадает список с доступными языками, рядом картинки стран 
-    actual-result: |
+  actual-result: |
       Список с языками выпадает, но картинок со странами у языков нет
 
   - summary: |
